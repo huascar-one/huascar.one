@@ -1,14 +1,11 @@
 import Image from "next/image";
-import logo from "public/logo.png"
+import logo from "public/logo.png";
 export const Header = () => (
   <header className="header">
     <div className="profile">
       <div className="image">
         <a href="#">
-          <Image
-            src={logo}
-            alt="Huascar Morales"
-          />
+          <Image src={logo} alt="Huascar Morales" />
         </a>
       </div>
       <div className="title">Huascar Morales</div>
@@ -21,9 +18,9 @@ export const Header = () => (
       </div>
     </div>
 
-    <a href="#" className="menu-btn">
+    {/* <a href="#" className="menu-btn">
       <span></span>
-    </a>
+    </a> */}
 
     <div className="top-menu">
       <ul>
@@ -36,15 +33,15 @@ export const Header = () => (
         <li>
           <a href="#resume-card">
             <span className="icon ion-android-list"></span>
-            <span className="link">Resumen</span>
+            <span className="link">Habilidades</span>
           </a>
         </li>
-        <li>
+        {/* <li>
           <a href="#works-card">
             <span className="icon ion-paintbrush"></span>
             <span className="link">Proyectos</span>
           </a>
-        </li>
+        </li> */}
         <li>
           <a href="#blog-card">
             <span className="icon ion-chatbox-working"></span>

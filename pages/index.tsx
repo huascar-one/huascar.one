@@ -1,18 +1,17 @@
 import { NextSeo } from "next-seo";
 import Head from "next/head";
 import { AboutCard } from "src/components/cards/About.card";
-import { BlogCard } from "src/components/cards/Blog.card";
-import { ContactsCard } from "src/components/cards/Contacts.card";
+import { BlogCard } from "src/components/cards/Services.card";
+import { ContactsCard } from "src/components/cards/Contact.card";
 import { HomeCard } from "src/components/cards/Home.card";
-import { ResumeCard } from "src/components/cards/Resume.card";
-import { WorksCard } from "src/components/cards/Works.card";
+import { ResumeCard } from "src/components/cards/Skills.card";
 import { Header } from "src/components/Header";
 
 export default function Home() {
   return (
     <>
       <NextSeo
-        title="Huascar - Desarrollador de Software"
+        title="Huascar - Desarrollador de Software en La Paz > Bolivia"
         description="Dejame ayudarte con tu proyecto Web (App Web o Pagina Web) con Javascript, React, etc. Tambien desarrollo aplicaciones moviles para Android!"
       />
       <Head>
@@ -32,14 +31,10 @@ export default function Home() {
         <link rel="stylesheet" href="css/magnific-popup.css" />
         <link rel="stylesheet" href="css/animate.css" />
         <link rel="stylesheet" href="css/owl.carousel.css" />
-
         <link rel="stylesheet" href="css/gradient.css" />
-
         <link rel="stylesheet" href="css/new-skin/new-skin.css" />
-
         <link rel="stylesheet" href="css/demos/demo-2-colors.css" />
-
-        <link rel="stylesheet" href="css/new-skin/classNameic-skin.css" />
+        <link rel="stylesheet" href="css/new-skin/classic-skin.css" />
         <link rel="stylesheet" href="css/template-dark/dark.css" />
 
         <script src="js/jquery.min.js"></script>
@@ -56,9 +51,6 @@ export default function Home() {
           integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
           crossOrigin="anonymous"
         />
-
-        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDz2w7HUaWudHwd7AWQpCL48Qs050WOn9s"></script>
-
         <script src="js/scripts.js"></script>
       </Head>
       <div className="page new-skin">
@@ -94,11 +86,10 @@ export default function Home() {
           data-animation-out="fadeOutLeft"
         >
           <Header />
-
           <HomeCard />
           <AboutCard />
           <ResumeCard />
-          <WorksCard />
+          {/* <WorksCard /> */}
           <BlogCard />
           <ContactsCard />
         </div>

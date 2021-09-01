@@ -82,7 +82,7 @@ export const ResumeCard = () => (
       </div> */}
 
       <div className="content skills">
-        <div className="title">My Skills</div>
+        <div className="title">Mis Habilidades</div>
 
         <div className="row">
           <div className="col col-d-6 col-t-6 col-m-12 border-line-v">
@@ -128,19 +128,19 @@ export const ResumeCard = () => (
                 <div className="icon">
                   <i className="fa fa-flag"></i>
                 </div>
-                <div className="name">Languages</div>
+                <div className="name">Lenguajes</div>
               </div>
               <ul>
                 <li className="border-line-h">
-                  <div className="name">English</div>
+                  <div className="name">Ingles</div>
                   <div className="progress">
                     <div className="percentage" style={{ width: "70%" }}></div>
                   </div>
                 </li>
                 <li className="border-line-h">
-                  <div className="name">German</div>
+                  <div className="name">Aleman</div>
                   <div className="progress">
-                    <div className="percentage" style={{ width: "30%" }}></div>
+                    <div className="percentage" style={{ width: "20%" }}></div>
                   </div>
                 </li>
                 {/* <li className="border-line-h">
@@ -148,14 +148,14 @@ export const ResumeCard = () => (
               <div className="progress">
                 <div
                   className="percentage"
-                  style={{ width: "30%" }}
+                  style={{ width: "20%" }}
                 ></div>
               </div>
             </li> */}
                 <li>
-                  <div className="name">French</div>
+                  <div className="name">Frances</div>
                   <div className="progress ">
-                    <div className="percentage" style={{ width: "30%" }}></div>
+                    <div className="percentage" style={{ width: "20%" }}></div>
                   </div>
                 </li>
               </ul>
