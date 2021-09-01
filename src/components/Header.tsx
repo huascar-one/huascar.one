@@ -1,5 +1,9 @@
 import Image from "next/image";
 import logo from "public/logo.png";
+import MemoMail from "src/svg/Mail";
+import MemoMan from "src/svg/Man";
+import MemoStar from "src/svg/Star";
+import MemoTool from "src/svg/Tool";
 export const Header = () => (
   <header className="header">
     <div className="profile">
@@ -26,13 +30,17 @@ export const Header = () => (
       <ul>
         <li className="active">
           <a href="#about-card">
-            <span className="icon ion-person"></span>
+            <div className="svgContainer">
+              <MemoMan />
+            </div>
             <span className="link">Yo</span>
           </a>
         </li>
         <li>
           <a href="#resume-card">
-            <span className="icon ion-android-list"></span>
+            <div className="svgContainer">
+              <MemoStar />
+            </div>
             <span className="link">Habilidades</span>
           </a>
         </li>
@@ -44,13 +52,17 @@ export const Header = () => (
         </li> */}
         <li>
           <a href="#blog-card">
-            <span className="icon ion-chatbox-working"></span>
+            <div className="svgContainer">
+              <MemoTool />
+            </div>
             <span className="link">Servicios</span>
           </a>
         </li>
         <li>
           <a href="#contacts-card">
-            <span className="icon ion-at"></span>
+            <div className="svgContainer">
+              <MemoMail />
+            </div>
             <span className="link">Contacto</span>
           </a>
         </li>

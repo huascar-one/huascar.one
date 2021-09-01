@@ -7,7 +7,7 @@ export const ContactsCard = () => {
   const [error, seterror] = useState(false);
   const [success, setSuccess] = useState(false);
   const SendMsg = () => {
-    if (name !== "" || email !== "" || msg !== "") {
+    if (name !== "" && email !== "" && msg !== "") {
       console.log({ name, email, msg });
       seterror(false);
       setSuccess(true);
@@ -29,7 +29,7 @@ export const ContactsCard = () => {
                 <form id="cform">
                   <div className="row">
                     <div className="col col-d-6 col-t-6 col-m-12">
-                      <span style={{ color: "#ff9800" }}> Nombre Completo</span>
+                      <span style={{ color: "#ff9800" }}>Nombre Completo</span>
                       <div className="group-val">
                         <input
                           type="text"

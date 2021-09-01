@@ -24,19 +24,19 @@ export const HomeCard = () => (
 
       <div className="social">
         <a target="_blank" rel="noreferrer" href="https://dribbble.com/">
-          <span className="fa fa-dribbble"></span>
+          <span className="fab fa-dribbble"></span>
         </a>
         <a target="_blank" rel="noreferrer" href="https://twitter.com/">
-          <span className="fa fa-twitter"></span>
+          <span className="fab fa-twitter"></span>
         </a>
         <a target="_blank" rel="noreferrer" href="https://github.com/">
-          <span className="fa fa-github"></span>
+          <span className="fab fa-github"></span>
         </a>
         <a target="_blank" rel="noreferrer" href="https://www.spotify.com/">
-          <span className="fa fa-spotify"></span>
+          <span className="fab fa-spotify"></span>
         </a>
         <a target="_blank" rel="noreferrer" href="https://stackoverflow.com/">
-          <span className="fa fa-stack-overflow"></span>
+          <span className="fab fa-stack-overflow"></span>
         </a>
       </div>
 
