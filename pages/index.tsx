@@ -113,7 +113,7 @@ export default function Home() {
                 <li className="active">
                   <a href="#about-card">
                     <span className="icon ion-person"></span>
-                    <span className="link">Acerca de mi</span>
+                    <span className="link">Yo</span>
                   </a>
                 </li>
                 <li>
