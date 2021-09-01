@@ -17,8 +17,10 @@ export const BlogCard = () => (
               <div className="desc">
                 <div>
                   <p>
-                    Modern and mobile-ready website that will help you reach all
-                    of your marketing.
+                    Consigue una pagina web con un diseño profesional y con todo
+                    lo que necesitas. Desde una simple pagina para conseguir
+                    clientes (Landing Page), portfolios para mostrar tus
+                    proyectos o una Aplicacion Web.
                   </p>
                 </div>
               </div>
@@ -35,8 +37,9 @@ export const BlogCard = () => (
               <div className="desc">
                 <div>
                   <p>
-                    Music copying, writing, creating, transcription, arranging
-                    and composition services.
+                    Adquiere una Aplicacion para dispositivos moviles
+                    desarrollada en React Native para Android. Ademas tu
+                    aplicacion puede ser subida a la Play Store.
                   </p>
                 </div>
               </div>
@@ -53,8 +56,10 @@ export const BlogCard = () => (
               <div className="desc">
                 <div>
                   <p>
-                    Advertising services include television, radio, print, mail,
-                    and web apps.
+                    Consigue microservicios en la nube para diferentes
+                    funcionalidades como: envios de correo automaticos,
+                    seguridad a distancia, alarmas o informacion que necesites
+                    en una base de datos.
                   </p>
                 </div>
               </div>
@@ -71,8 +76,11 @@ export const BlogCard = () => (
               <div className="desc">
                 <div>
                   <p>
-                    Developing memorable and unique mobile android, ios and
-                    video games.
+                    Si ya tienes un proyecto montado pero consume demasiados
+                    servidores o te cobran por usar muchos recursos de un
+                    servidor, con este servicio puedes conseguir toda la
+                    infraestructura y velocidad en un servidor optimizado con
+                    Docker.
                   </p>
                 </div>
               </div>

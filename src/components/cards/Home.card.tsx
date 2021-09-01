@@ -27,7 +27,7 @@ export const HomeCard = () => (
         </div>
       </div>
 
-      <div className="social">
+      {/* <div className="social">
         <a target="_blank" rel="noreferrer" href="https://dribbble.com/">
           <span className="fab fa-dribbble"></span>
         </a>
@@ -43,7 +43,7 @@ export const HomeCard = () => (
         <a target="_blank" rel="noreferrer" href="https://stackoverflow.com/">
           <span className="fab fa-stack-overflow"></span>
         </a>
-      </div>
+      </div> */}
 
       <div className="lnks">
         <a href="#" className="lnk">

@@ -68,13 +68,6 @@ export const ContactsCard = () => {
                       </div>
                     </div>
                   </div>
-
-                  <div className="align-left">
-                    <a onClick={SendMsg} className="button">
-                      <span className="text">Enviar Mensaje</span>
-                      <span className="arrow"></span>
-                    </a>
-                  </div>
                   {error && (
                     <span style={{ color: "#CF6679" }}>
                       Error, llena todos los campos
@@ -85,6 +78,12 @@ export const ContactsCard = () => {
                       Mensaje Enviado Correctamente
                     </span>
                   )}
+                  <div className="align-left">
+                    <a onClick={SendMsg} className="button">
+                      <span className="text">Enviar Mensaje</span>
+                      <span className="arrow"></span>
+                    </a>
+                  </div>
                 </form>
               </div>
             </div>

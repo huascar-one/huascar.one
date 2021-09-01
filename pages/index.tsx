@@ -95,7 +95,7 @@ export default function Home() {
         </div>
 
         <div className="s_overlay"></div>
-        <div className="content-sidebar">
+        {/* <div className="content-sidebar">
           <div className="sidebar-wrap search-form">
             <aside id="secondary" className="widget-area">
               <section id="search-2" className="widget widget_search">
@@ -216,6 +216,7 @@ export default function Home() {
           </div>
           <span className="close"></span>
         </div>
+    */}
       </div>
     </>
   );

@@ -91,31 +91,31 @@ export const ResumeCard = () => (
                 <div className="icon">
                   <i className="fa fa-paint-brush"></i>
                 </div>
-                <div className="name">Design</div>
+                <div className="name">Patrones</div>
               </div>
               <ul>
                 <li className="border-line-h">
-                  <div className="name">Web Design</div>
+                  <div className="name">Frontend</div>
                   <div className="progress">
                     <div className="percentage" style={{ width: "90%" }}></div>
                   </div>
                 </li>
                 <li className="border-line-h">
-                  <div className="name">Write Music</div>
+                  <div className="name">Backend</div>
                   <div className="progress">
-                    <div className="percentage" style={{ width: "65%" }}></div>
+                    <div className="percentage" style={{ width: "80%" }}></div>
                   </div>
                 </li>
                 <li className="border-line-h">
-                  <div className="name">Photoshop</div>
+                  <div className="name">Bases de datos</div>
                   <div className="progress">
-                    <div className="percentage" style={{ width: "75%" }}></div>
+                    <div className="percentage" style={{ width: "70%" }}></div>
                   </div>
                 </li>
                 <li>
-                  <div className="name">Graphic Design</div>
+                  <div className="name">Docker y Servidores</div>
                   <div className="progress">
-                    <div className="percentage" style={{ width: "85%" }}></div>
+                    <div className="percentage" style={{ width: "70%" }}></div>
                   </div>
                 </li>
               </ul>
@@ -168,31 +168,43 @@ export const ResumeCard = () => (
                 <div className="icon">
                   <i className="fa fa-code"></i>
                 </div>
-                <div className="name">Coding</div>
+                <div className="name">Tecnologias</div>
               </div>
               <ul>
                 <li>
-                  <div className="name">WordPress</div>
+                  <div className="name">React</div>
                   <div className="progress p90">
                     <span>90%</span>
                   </div>
                 </li>
                 <li>
-                  <div className="name">PHP / MYSQL</div>
+                  <div className="name">React Native</div>
+                  <div className="progress p85">
+                    <span>80%</span>
+                  </div>
+                </li>
+                <li>
+                  <div className="name">Angular</div>
+                  <div className="progress p70">
+                    <span>70%</span>
+                  </div>
+                </li>
+                <li>
+                  <div className="name">Docker</div>
+                  <div className="progress p70">
+                    <span>70%</span>
+                  </div>
+                </li>
+                <li>
+                  <div className="name">Node</div>
+                  <div className="progress p70">
+                    <span>70%</span>
+                  </div>
+                </li>
+                <li>
+                  <div className="name">MYSQL</div>
                   <div className="progress p75">
                     <span>75%</span>
-                  </div>
-                </li>
-                <li>
-                  <div className="name">Angular / JavaScript</div>
-                  <div className="progress p85">
-                    <span>85%</span>
-                  </div>
-                </li>
-                <li>
-                  <div className="name">HTML / CSS</div>
-                  <div className="progress p95">
-                    <span>95%</span>
                   </div>
                 </li>
               </ul>
@@ -205,32 +217,39 @@ export const ResumeCard = () => (
                 <div className="icon">
                   <i className="fa fa-list"></i>
                 </div>
-                <div className="name">Knowledge</div>
+                <div className="name">Conocimientos</div>
               </div>
               <ul>
                 <li>
-                  <div className="name">Website hosting</div>
+                  <div className="name">Hosteo de paginas web</div>
                 </li>
                 <li>
-                  <div className="name">iOS and android apps</div>
+                  <div className="name">
+                    Asesoramiento para aparecer en Google Maps
+                  </div>
                 </li>
                 <li>
-                  <div className="name">Create logo design</div>
+                  <div className="name">Aplicaciones Android</div>
                 </li>
                 <li>
-                  <div className="name">Design for print</div>
+                  <div className="name">Diseño de Servidores con Docker</div>
                 </li>
                 <li>
-                  <div className="name">Modern and mobile-ready</div>
+                  <div className="name">Diseño por plantillas </div>
                 </li>
                 <li>
-                  <div className="name">Advertising services include</div>
+                  <div className="name">
+                    Asesoramiento con la compra de Hosting y/o Dominio.
+                  </div>
                 </li>
                 <li>
-                  <div className="name">Graphics and animations</div>
+                  <div className="name">Desarrollo de microservicios</div>
                 </li>
                 <li>
-                  <div className="name">Search engine marketing</div>
+                  <div className="name">Optimizacion de Paginas o Apps Web</div>
+                </li>
+                <li>
+                  <div className="name">Web Scraping</div>
                 </li>
               </ul>
             </div>
