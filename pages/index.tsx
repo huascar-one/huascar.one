@@ -88,7 +88,10 @@ export default function Home() {
             <div className="profile">
               <div className="image">
                 <a href="#">
-                  <img src="images/profile.png" alt="Huascar Morales" />
+                  <Image
+                    src={require("public/images/profile.png")}
+                    alt="Huascar Morales"
+                  />
                 </a>
               </div>
               <div className="title">Huascar Morales</div>
@@ -149,7 +152,7 @@ export default function Home() {
               ></div>
 
               <div className="image">
-                <img src="images/profile.png" alt="" />
+                <Image src={require("public/images/profile.png")} alt="" />
               </div>
 
               <div className="title">Huascar Morales</div>
@@ -162,19 +165,31 @@ export default function Home() {
               </div>
 
               <div className="social">
-                <a target="_blank" href="https://dribbble.com/">
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://dribbble.com/"
+                >
                   <span className="fa fa-dribbble"></span>
                 </a>
-                <a target="_blank" href="https://twitter.com/">
+                <a target="_blank" rel="noreferrer" href="https://twitter.com/">
                   <span className="fa fa-twitter"></span>
                 </a>
-                <a target="_blank" href="https://github.com/">
+                <a target="_blank" rel="noreferrer" href="https://github.com/">
                   <span className="fa fa-github"></span>
                 </a>
-                <a target="_blank" href="https://www.spotify.com/">
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://www.spotify.com/"
+                >
                   <span className="fa fa-spotify"></span>
                 </a>
-                <a target="_blank" href="https://stackoverflow.com/">
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://stackoverflow.com/"
+                >
                   <span className="fa fa-stack-overflow"></span>
                 </a>
               </div>
@@ -427,8 +442,15 @@ export default function Home() {
                   <div className="col col-d-3 col-t-3 col-m-6 border-line-v">
                     <div className="client-item">
                       <div className="image">
-                        <a target="_blank" href="https://www.google.com">
-                          <img src="images/clients/client_1.png" alt="" />
+                        <a
+                          target="_blank"
+                          rel="noreferrer"
+                          href="https://www.google.com"
+                        >
+                          <Image
+                            src={require("public/images/clients/client_1.png")}
+                            alt=""
+                          />
                         </a>
                       </div>
                     </div>
@@ -437,8 +459,15 @@ export default function Home() {
                   <div className="col col-d-3 col-t-3 col-m-6 border-line-v">
                     <div className="client-item">
                       <div className="image">
-                        <a target="_blank" href="https://www.google.com">
-                          <img src="images/clients/client_2.png" alt="" />
+                        <a
+                          target="_blank"
+                          rel="noreferrer"
+                          href="https://www.google.com"
+                        >
+                          <Image
+                            src={require("public/images/clients/client_2.png")}
+                            alt=""
+                          />
                         </a>
                       </div>
                     </div>
@@ -447,8 +476,15 @@ export default function Home() {
                   <div className="col col-d-3 col-t-3 col-m-6 border-line-v">
                     <div className="client-item">
                       <div className="image">
-                        <a target="_blank" href="https://www.google.com">
-                          <img src="images/clients/client_3.png" alt="" />
+                        <a
+                          target="_blank"
+                          rel="noreferrer"
+                          href="https://www.google.com"
+                        >
+                          <Image
+                            src={require("public/images/clients/client_3.png")}
+                            alt=""
+                          />
                         </a>
                       </div>
                     </div>
@@ -457,8 +493,15 @@ export default function Home() {
                   <div className="col col-d-3 col-t-3 col-m-6 border-line-v">
                     <div className="client-item">
                       <div className="image">
-                        <a target="_blank" href="https://www.google.com">
-                          <img src="images/clients/client_4.png" alt="" />
+                        <a
+                          target="_blank"
+                          rel="noreferrer"
+                          href="https://www.google.com"
+                        >
+                          <Image
+                            src={require("public/images/clients/client_4.png")}
+                            alt=""
+                          />
                         </a>
                       </div>
                     </div>
@@ -485,7 +528,10 @@ export default function Home() {
                       </div>
                       <div className="user">
                         <div className="img">
-                          <img src="images/profile.png" alt="Huascar Morales" />
+                          <Image
+                            src={require("public/images/profile.png")}
+                            alt="Huascar Morales"
+                          />
                         </div>
                         <div className="info">
                           <div className="name">Huascar Morales</div>
@@ -783,7 +829,10 @@ export default function Home() {
                             </div>
                             <div className="user">
                               <div className="img">
-                                <img src="images/man1.jpg" alt="" />
+                                <Image
+                                  src={require("public/images/man1.jpg")}
+                                  alt=""
+                                />
                               </div>
                               <div className="info">
                                 <div className="name">Helen Floyd</div>
@@ -802,7 +851,10 @@ export default function Home() {
                             </div>
                             <div className="user">
                               <div className="img">
-                                <img src="images/man1.jpg" alt="" />
+                                <Image
+                                  src={require("public/images/man1.jpg")}
+                                  alt=""
+                                />
                               </div>
                               <div className="info">
                                 <div className="name">Robert Chase</div>
@@ -821,7 +873,10 @@ export default function Home() {
                             </div>
                             <div className="user">
                               <div className="img">
-                                <img src="images/man1.jpg" alt="" />
+                                <Image
+                                  src={require("public/images/man1.jpg")}
+                                  alt=""
+                                />
                               </div>
                               <div className="info">
                                 <div className="name">Helen Floyd</div>
@@ -893,7 +948,10 @@ export default function Home() {
                           href="images/works/work1.jpg"
                           className="has-popup-image"
                         >
-                          <img src="images/works/work1.jpg" alt="" />
+                          <Image
+                            src={require("public/images/works/work1.jpg")}
+                            alt=""
+                          />
                           <span className="info">
                             <span className="ion ion-image"></span>
                           </span>
@@ -918,7 +976,10 @@ export default function Home() {
                           href="https://vimeo.com/97102654"
                           className="has-popup-video"
                         >
-                          <img src="images/works/work2.jpg" alt="" />
+                          <Image
+                            src={require("public/images/works/work2.jpg")}
+                            alt=""
+                          />
                           <span className="info">
                             <span className="ion ion-videocamera"></span>
                           </span>
@@ -943,7 +1004,10 @@ export default function Home() {
                           href="https://w.soundcloud.com/player/?visual=true&url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F221650664&show_artwork=true"
                           className="has-popup-music"
                         >
-                          <img src="images/works/work3.jpg" alt="" />
+                          <Image
+                            src={require("public/images/works/work3.jpg")}
+                            alt=""
+                          />
                           <span className="info">
                             <span className="ion ion-music-note"></span>
                           </span>
@@ -962,7 +1026,10 @@ export default function Home() {
                     <div className="box-item">
                       <div className="image">
                         <a href="#popup-1" className="has-popup-media">
-                          <img src="images/works/work4.jpg" alt="" />
+                          <Image
+                            src={require("public/images/works/work4.jpg")}
+                            alt=""
+                          />
                           <span className="info">
                             <span className="ion ion-images"></span>
                           </span>
@@ -977,7 +1044,10 @@ export default function Home() {
                       <div id="popup-1" className="popup-box mfp-fade mfp-hide">
                         <div className="content">
                           <div className="image">
-                            <img src="images/works/work4.jpg" alt="" />
+                            <Image
+                              src={require("public/images/works/work4.jpg")}
+                              alt=""
+                            />
                           </div>
                           <div className="desc">
                             <div className="post-box">
@@ -1044,7 +1114,10 @@ export default function Home() {
                     <div className="box-item">
                       <div className="image">
                         <a href="#gallery-1" className="has-popup-gallery">
-                          <img src="images/works/work5.jpg" alt="" />
+                          <Image
+                            src={require("public/images/works/work5.jpg")}
+                            alt=""
+                          />
                           <span className="info">
                             <span className="ion ion-images"></span>
                           </span>
@@ -1074,7 +1147,10 @@ export default function Home() {
                           href="https://w.soundcloud.com/player/?visual=true&url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F221650664&show_artwork=true"
                           className="has-popup-music"
                         >
-                          <img src="images/works/work8.jpg" alt="" />
+                          <Image
+                            src={require("public/images/works/work8.jpg")}
+                            alt=""
+                          />
                           <span className="info">
                             <span className="ion ion-music-note"></span>
                           </span>
@@ -1096,7 +1172,10 @@ export default function Home() {
                           href="https://vimeo.com/97102654"
                           className="has-popup-video"
                         >
-                          <img src="images/works/work6.jpg" alt="" />
+                          <Image
+                            src={require("public/images/works/work6.jpg")}
+                            alt=""
+                          />
                           <span className="info">
                             <span className="ion ion-videocamera"></span>
                           </span>
@@ -1118,7 +1197,10 @@ export default function Home() {
                     <div className="box-item">
                       <div className="image">
                         <a href="#popup-2" className="has-popup-media">
-                          <img src="images/works/work7.jpg" alt="" />
+                          <Image
+                            src={require("public/images/works/work7.jpg")}
+                            alt=""
+                          />
                           <span className="info">
                             <span className="ion ion-images"></span>
                           </span>
@@ -1133,7 +1215,10 @@ export default function Home() {
                       <div id="popup-2" className="popup-box mfp-fade mfp-hide">
                         <div className="content">
                           <div className="image">
-                            <img src="images/works/work7.jpg" alt="" />
+                            <Image
+                              src={require("public/images/works/work7.jpg")}
+                              alt=""
+                            />
                           </div>
                           <div className="desc">
                             <div className="post-box">
@@ -1214,8 +1299,8 @@ export default function Home() {
                     <div className="box-item">
                       <div className="image">
                         <a href="blog-post-new.html">
-                          <img
-                            src="images/blog/blog1.jpg"
+                          <Image
+                            src={require("public/images/blog/blog1.jpg")}
                             alt="By spite about do of allow"
                           />
                           <span className="info">
@@ -1244,8 +1329,8 @@ export default function Home() {
                     <div className="box-item">
                       <div className="image">
                         <a href="blog-post-new.html">
-                          <img
-                            src="images/blog/blog2.jpg"
+                          <Image
+                            src={require("public/images/blog/blog2.jpg")}
                             alt="By spite about do of allow"
                           />
                           <span className="info">
@@ -1274,8 +1359,8 @@ export default function Home() {
                     <div className="box-item">
                       <div className="image">
                         <a href="blog-post-new.html">
-                          <img
-                            src="images/blog/blog3.jpg"
+                          <Image
+                            src={require("public/images/blog/blog3.jpg")}
                             alt="By spite about do of allow"
                           />
                           <span className="info">
@@ -1304,8 +1389,8 @@ export default function Home() {
                     <div className="box-item">
                       <div className="image">
                         <a href="blog-post-new.html">
-                          <img
-                            src="images/blog/blog1.jpg"
+                          <Image
+                            src={require("public/images/blog/blog1.jpg")}
                             alt="By spite about do of allow"
                           />
                           <span className="info">
