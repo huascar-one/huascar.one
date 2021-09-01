@@ -4,10 +4,15 @@ import logo from "public/logo.png";
 export const HomeCard = () => (
   <div className="card-started" id="home-card">
     <div className="profile">
-      <div
-        className="slide"
-        style={{ backgroundImage: "url(images/bg.jpg)" }}
-      ></div>
+      <div className="slide">
+        <div style={{ zIndex: 0 }}>
+          <Image
+            src={require("public/images/bg.jpg")}
+            layout="fill"
+            placeholder="blur"
+          ></Image>
+        </div>
+      </div>
 
       <div className="image">
         <Image src={logo} alt="" />
