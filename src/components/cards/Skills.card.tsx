@@ -1,4 +1,11 @@
 import Image from "next/image";
+import MemoCheckMark from "src/svg/CheckMark";
+import MemoCode from "src/svg/Code";
+import MemoFlag from "src/svg/Flag";
+import MemoList from "src/svg/List";
+import MemoPatron from "src/svg/Patron";
+import { CircularProgressbar } from "react-circular-progressbar";
+
 export const ResumeCard = () => (
   <div className="card-inner" id="resume-card">
     <div className="card-wrap">
@@ -89,7 +96,7 @@ export const ResumeCard = () => (
             <div className="skills-list">
               <div className="skill-title border-line-h">
                 <div className="icon">
-                  <i className="fa fa-paint-brush"></i>
+                  <MemoPatron />
                 </div>
                 <div className="name">Patrones</div>
               </div>
@@ -126,7 +133,7 @@ export const ResumeCard = () => (
             <div className="skills-list dotted">
               <div className="skill-title border-line-h">
                 <div className="icon">
-                  <i className="fa fa-flag"></i>
+                  <MemoFlag />
                 </div>
                 <div className="name">Lenguajes</div>
               </div>
@@ -134,13 +141,23 @@ export const ResumeCard = () => (
                 <li className="border-line-h">
                   <div className="name">Ingles</div>
                   <div className="progress">
-                    <div className="percentage" style={{ width: "70%" }}></div>
+                    <div className="progress">
+                      <div
+                        className="percentage"
+                        style={{ width: "70%" }}
+                      ></div>
+                    </div>
                   </div>
                 </li>
                 <li className="border-line-h">
                   <div className="name">Aleman</div>
                   <div className="progress">
-                    <div className="percentage" style={{ width: "20%" }}></div>
+                    <div className="progress">
+                      <div
+                        className="percentage"
+                        style={{ width: "20%" }}
+                      ></div>
+                    </div>
                   </div>
                 </li>
                 {/* <li className="border-line-h">
@@ -155,7 +172,12 @@ export const ResumeCard = () => (
                 <li>
                   <div className="name">Frances</div>
                   <div className="progress ">
-                    <div className="percentage" style={{ width: "20%" }}></div>
+                    <div className="progress">
+                      <div
+                        className="percentage"
+                        style={{ width: "20%" }}
+                      ></div>
+                    </div>
                   </div>
                 </li>
               </ul>
@@ -166,46 +188,124 @@ export const ResumeCard = () => (
             <div className="skills-list circles">
               <div className="skill-title border-line-h">
                 <div className="icon">
-                  <i className="fa fa-code"></i>
+                  <MemoCode />
                 </div>
                 <div className="name">Tecnologias</div>
               </div>
               <ul>
                 <li>
                   <div className="name">React</div>
-                  <div className="progress p90">
-                    <span>90%</span>
-                  </div>
+                  <CircularProgressbar
+                    value={70}
+                    text={`${70}%`}
+                    styles={{
+                      root: { width: "90px" },
+                      text: {
+                        fill: "rgba(255, 255, 255, 0.85)",
+                        fontSize: "17px",
+                        fontWeight: 500,
+                      },
+                      path: { stroke: "#ff9800" },
+                      trail: {
+                        stroke: "#3e4148",
+                      },
+                    }}
+                  />
                 </li>
                 <li>
                   <div className="name">React Native</div>
-                  <div className="progress p85">
-                    <span>80%</span>
-                  </div>
+                  <CircularProgressbar
+                    value={85}
+                    text={`${85}%`}
+                    styles={{
+                      root: { width: "90px" },
+                      text: {
+                        fill: "rgba(255, 255, 255, 0.85)",
+                        fontSize: "17px",
+                        fontWeight: 500,
+                      },
+                      path: { stroke: "#ff9800" },
+                      trail: {
+                        stroke: "#3e4148",
+                      },
+                    }}
+                  />
                 </li>
                 <li>
                   <div className="name">Angular</div>
-                  <div className="progress p70">
-                    <span>70%</span>
-                  </div>
+                  <CircularProgressbar
+                    value={60}
+                    text={`${60}%`}
+                    styles={{
+                      root: { width: "90px" },
+                      text: {
+                        fill: "rgba(255, 255, 255, 0.85)",
+                        fontSize: "17px",
+                        fontWeight: 500,
+                      },
+                      path: { stroke: "#ff9800" },
+                      trail: {
+                        stroke: "#3e4148",
+                      },
+                    }}
+                  />
                 </li>
                 <li>
                   <div className="name">Docker</div>
-                  <div className="progress p70">
-                    <span>70%</span>
-                  </div>
+                  <CircularProgressbar
+                    value={70}
+                    text={`${70}%`}
+                    styles={{
+                      root: { width: "90px" },
+                      text: {
+                        fill: "rgba(255, 255, 255, 0.85)",
+                        fontSize: "17px",
+                        fontWeight: 500,
+                      },
+                      path: { stroke: "#ff9800" },
+                      trail: {
+                        stroke: "#3e4148",
+                      },
+                    }}
+                  />
                 </li>
                 <li>
                   <div className="name">Node</div>
-                  <div className="progress p70">
-                    <span>70%</span>
-                  </div>
+                  <CircularProgressbar
+                    value={70}
+                    text={`${70}%`}
+                    styles={{
+                      root: { width: "90px" },
+                      text: {
+                        fill: "rgba(255, 255, 255, 0.85)",
+                        fontSize: "17px",
+                        fontWeight: 500,
+                      },
+                      path: { stroke: "#ff9800" },
+                      trail: {
+                        stroke: "#3e4148",
+                      },
+                    }}
+                  />
                 </li>
                 <li>
                   <div className="name">MYSQL</div>
-                  <div className="progress p75">
-                    <span>75%</span>
-                  </div>
+                  <CircularProgressbar
+                    value={75}
+                    text={`${75}%`}
+                    styles={{
+                      root: { width: "90px" },
+                      text: {
+                        fill: "rgba(255, 255, 255, 0.85)",
+                        fontSize: "17px",
+                        fontWeight: 500,
+                      },
+                      path: { stroke: "#ff9800" },
+                      trail: {
+                        stroke: "#3e4148",
+                      },
+                    }}
+                  />
                 </li>
               </ul>
             </div>
@@ -215,7 +315,7 @@ export const ResumeCard = () => (
             <div className="skills-list list">
               <div className="skill-title border-line-h">
                 <div className="icon">
-                  <i className="fa fa-list"></i>
+                  <MemoList />
                 </div>
                 <div className="name">Conocimientos</div>
               </div>

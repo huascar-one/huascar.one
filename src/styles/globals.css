@@ -37,3 +37,31 @@ a {
 .header .top-menu ul li:hover a .svgContainer svg {
   fill: #ff9800;
 }
+
+.skill-title .icon svg {
+  fill: #ff9800;
+}
+.service-items .service-item .icon svg {
+  fill: #ff9800 !important;
+}
+
+.service-items .service-item .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.name svg {
+  fill: #ff9800;
+}
+
+.skills-list.list ul li .name {
+  padding-left: 0;
+}
+.skills-list.list ul {
+  list-style: circle;
+  padding-left: 20px;
+}
+
+.skills-list.list ul li::marker {
+  color: #ff9800;
+}

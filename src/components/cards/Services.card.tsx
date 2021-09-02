@@ -1,4 +1,8 @@
 import Image from "next/image";
+import MemoCode from "src/svg/Code";
+import MemoDocker from "src/svg/Docker";
+import MemoMobile from "src/svg/Mobile";
+import MemoNetwork from "src/svg/Network";
 export const BlogCard = () => (
   <div className="card-inner blog" id="blog-card">
     <div className="card-wrap">
@@ -9,7 +13,7 @@ export const BlogCard = () => (
           <div className="col col-d-6 col-t-6 col-m-12 border-line-h">
             <div className="service-item">
               <div className="icon">
-                <span className="fa fa-code"></span>
+                <MemoCode />{" "}
               </div>
               <div className="name">
                 <span>Creacion de Paginas Web </span>
@@ -29,7 +33,7 @@ export const BlogCard = () => (
           <div className="col col-d-6 col-t-6 col-m-12 border-line-h">
             <div className="service-item">
               <div className="icon">
-                <span className="fa fa-music"></span>
+                <MemoMobile />{" "}
               </div>
               <div className="name">
                 <span>Desarrollo de Aplicaciones Moviles </span>
@@ -48,7 +52,7 @@ export const BlogCard = () => (
           <div className="col col-d-6 col-t-6 col-m-12 border-line-h">
             <div className="service-item">
               <div className="icon">
-                <span className="fab fa-buysellads"></span>
+                <MemoNetwork />{" "}
               </div>
               <div className="name">
                 <span>Desarrollo de Microservicios </span>
@@ -68,7 +72,7 @@ export const BlogCard = () => (
           <div className="col col-d-6 col-t-6 col-m-12 border-line-h">
             <div className="service-item">
               <div className="icon">
-                <span className="fa fa-gamepad"></span>
+                <MemoDocker />{" "}
               </div>
               <div className="name">
                 <span>Desarrollo de Servidores y Docker </span>

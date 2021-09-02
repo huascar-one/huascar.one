@@ -24,10 +24,6 @@ export default function Home() {
         <link rel="stylesheet" href="css/basic.css" />
         <link rel="stylesheet" href="css/layout.css" />
         <link rel="stylesheet" href="css/blogs.css" />
-        <link
-          rel="stylesheet"
-          href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css"
-        />
         <link rel="stylesheet" href="css/magnific-popup.css" />
         <link rel="stylesheet" href="css/animate.css" />
         <link rel="stylesheet" href="css/owl.carousel.css" />
@@ -40,31 +36,12 @@ export default function Home() {
         <script src="js/jquery.min.js"></script>
         <script src="js/jquery.validate.js"></script>
         <script src="js/jquery.magnific-popup.js"></script>
+        <script src="js/jquery.slimscroll.js"></script>
         <script src="js/imagesloaded.pkgd.js"></script>
         <script src="js/isotope.pkgd.js"></script>
-        <script src="js/jquery.slimscroll.js"></script>
         <script src="js/owl.carousel.js"></script>
-        <script src="js/typed.js"></script>
-        <link
-          rel="stylesheet"
-          href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
-          integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
-          crossOrigin="anonymous"
-        />
-        <script src="js/scripts.js"></script>
       </Head>
       <div className="page new-skin">
-        <div className="preloader">
-          <div className="centrize full-width">
-            <div className="vertical-center">
-              <div className="spinner">
-                <div className="double-bounce1"></div>
-                <div className="double-bounce2"></div>
-              </div>
-            </div>
-          </div>
-        </div>
-
         <div className="background gradient">
           <ul className="bg-bubbles">
             <li></li>

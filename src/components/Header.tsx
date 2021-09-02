@@ -1,5 +1,6 @@
 import Image from "next/image";
 import logo from "public/logo.png";
+import ReactTyped from "react-typed";
 import MemoMail from "src/svg/Mail";
 import MemoMan from "src/svg/Man";
 import MemoStar from "src/svg/Star";
@@ -13,12 +14,26 @@ export const Header = () => (
         </a>
       </div>
       <div className="title">Huascar Morales</div>
+
       <div className="subtitle subtitle-typed">
-        <div className="typing-title">
-          <p>Desarrollador Web</p>
-          <p>Desarrollador de Apps Moviles</p>
-          <p>Freelancer</p>
-        </div>
+        <ReactTyped
+          loop
+          typeSpeed={50}
+          backSpeed={20}
+          strings={[
+            "Desarrollador Web",
+            "Desarrollador de Apps Moviles",
+            "Freelancer",
+          ]}
+          smartBackspace
+          shuffle={false}
+          backDelay={1}
+          fadeOut={false}
+          fadeOutDelay={100}
+          loopCount={0}
+          showCursor
+          cursorChar="|"
+        />
       </div>
     </div>
 
