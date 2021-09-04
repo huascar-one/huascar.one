@@ -6,6 +6,7 @@ import { ContactsCard } from "src/components/cards/Contact.card";
 import { HomeCard } from "src/components/cards/Home.card";
 import { ResumeCard } from "src/components/cards/Skills.card";
 import { Header } from "src/components/Header";
+import Script from "next/script";
 
 export default function Home() {
   return (
@@ -33,13 +34,13 @@ export default function Home() {
         <link rel="stylesheet" href="css/new-skin/classic-skin.css" />
         <link rel="stylesheet" href="css/template-dark/dark.css" />
 
-        <script src="js/jquery.min.js"></script>
-        <script src="js/jquery.validate.js"></script>
-        <script src="js/jquery.magnific-popup.js"></script>
-        <script src="js/jquery.slimscroll.js"></script>
-        <script src="js/imagesloaded.pkgd.js"></script>
-        <script src="js/isotope.pkgd.js"></script>
-        <script src="js/owl.carousel.js"></script>
+        <Script src="js/jquery.min.js"></Script>
+        <Script src="js/jquery.validate.js"></Script>
+        <Script src="js/jquery.magnific-popup.js"></Script>
+        <Script src="js/jquery.slimscroll.js"></Script>
+        <Script src="js/imagesloaded.pkgd.js"></Script>
+        <Script src="js/isotope.pkgd.js"></Script>
+        <Script src="js/owl.carousel.js"></Script>
       </Head>
       <div className="page new-skin">
         <div className="background gradient">
