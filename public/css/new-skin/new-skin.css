@@ -165,7 +165,7 @@ strong {
   }
 }
 
-@media (max-width: 1300px) {
+@media (max-width: px) {
   .container {
     margin: 5vh 3vw;
     height: 90vh;

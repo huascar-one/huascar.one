@@ -6,9 +6,14 @@ import { ContactsCard } from "src/components/cards/Contact.card";
 import { HomeCard } from "src/components/cards/Home.card";
 import { ResumeCard } from "src/components/cards/Skills.card";
 import { Header } from "src/components/Header";
-import Script from "next/script";
+import { useState } from "react";
 
 export default function Home() {
+  const [activeCard, setActiveCard] = useState(1);
+  const ChangeActiveCard = (numberCard: number) => {
+    setActiveCard(numberCard);
+  };
+  console.log(activeCard);
   return (
     <>
       <NextSeo
@@ -56,13 +61,13 @@ export default function Home() {
           data-animation-in="fadeInLeft"
           data-animation-out="fadeOutLeft"
         >
-          <Header />
+          <Header onFunction={ChangeActiveCard} />
           <HomeCard />
-          <AboutCard />
-          <ResumeCard />
-          {/* <WorksCard /> */}
-          <BlogCard />
-          <ContactsCard />
+          <AboutCard numberCard={activeCard} />
+          <ResumeCard numberCard={activeCard} />
+          <BlogCard numberCard={activeCard} />
+          <ContactsCard numberCard={activeCard} />
+          {/* <WorksCard numberCard={activeCard}/> */}
         </div>
 
         <div className="s_overlay"></div>

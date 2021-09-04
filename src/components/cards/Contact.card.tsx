@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Element } from "react-scroll";
 
-export const ContactsCard = () => {
+export const ContactsCard = ({ numberCard }: any) => {
   const [name, setName] = useState("");
   const [email, setemail] = useState("");
   const [msg, setmsg] = useState("");
@@ -19,7 +19,12 @@ export const ContactsCard = () => {
   };
 
   return (
-    <Element className="card-inner contacts" name="contacts-card">
+    <Element
+      className={`card-inner animated contacts ${
+        numberCard === 4 ? "active" : "hidden"
+      }`}
+      name="contacts-card"
+    >
       <div className="card-wrap">
         <div className="content contacts">
           <div className="title">Contactame!</div>

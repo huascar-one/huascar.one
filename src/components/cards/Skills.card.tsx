@@ -7,8 +7,11 @@ import MemoPatron from "src/svg/Patron";
 import { CircularProgressbar } from "react-circular-progressbar";
 import { Element } from "react-scroll";
 
-export const ResumeCard = () => (
-  <Element className="card-inner" name="resume-card">
+export const ResumeCard = ({ numberCard }: any) => (
+  <Element
+    className={`card-inner animated ${numberCard === 2 ? "active" : "hidden"}`}
+    name="resume-card"
+  >
     <div className="card-wrap">
       {/* <div className="content resume">
         <div className="title">Resume</div>

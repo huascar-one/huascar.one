@@ -4,8 +4,13 @@ import MemoCode from "src/svg/Code";
 import MemoDocker from "src/svg/Docker";
 import MemoMobile from "src/svg/Mobile";
 import MemoNetwork from "src/svg/Network";
-export const BlogCard = () => (
-  <Element className="card-inner blog" name="blog-card">
+export const BlogCard = ({ numberCard }: any) => (
+  <Element
+    className={`card-inner animated blog${
+      numberCard === 3 ? "active" : "hidden"
+    }`}
+    name="blog-card"
+  >
     <div className="card-wrap">
       <div className="content services">
         <div className="title">Mis Servicios</div>

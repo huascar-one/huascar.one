@@ -12,7 +12,7 @@ export const HomeCard = () => (
             src={require("public/images/bg.jpg")}
             layout="fill"
             placeholder="blur"
-          ></Image>
+          />
         </div>
       </div>
 

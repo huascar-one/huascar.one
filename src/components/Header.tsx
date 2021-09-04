@@ -6,7 +6,7 @@ import MemoMan from "src/svg/Man";
 import MemoStar from "src/svg/Star";
 import MemoTool from "src/svg/Tool";
 import { Link } from "react-scroll";
-export const Header = () => (
+export const Header = ({ onFunction }: any) => (
   <header className="header">
     <div className="profile">
       <div className="image">
@@ -19,8 +19,8 @@ export const Header = () => (
       <div className="subtitle subtitle-typed">
         <ReactTyped
           loop
-          typeSpeed={50}
-          backSpeed={20}
+          typeSpeed={100}
+          backSpeed={70}
           strings={[
             "Desarrollador Web",
             "Freelancer",
@@ -45,7 +45,12 @@ export const Header = () => (
     <div className="top-menu">
       <ul>
         <li>
-          <Link to="about-card" smooth="true" spy={true}>
+          <Link
+            onClick={() => onFunction(1)}
+            to="about-card"
+            smooth="true"
+            spy={true}
+          >
             <div className="svgContainer">
               <MemoMan />
             </div>
@@ -53,7 +58,12 @@ export const Header = () => (
           </Link>
         </li>
         <li>
-          <Link to="resume-card" smooth="true" spy={true}>
+          <Link
+            onClick={() => onFunction(2)}
+            to="resume-card"
+            smooth="true"
+            spy={true}
+          >
             <div className="svgContainer">
               <MemoStar />
             </div>
@@ -61,13 +71,18 @@ export const Header = () => (
           </Link>
         </li>
         {/* <li>
-          <Link to="works-card" smooth="true" spy={true}>
+          <Link onClick={()=>onFunction(1)} to="works-card" smooth="true" spy={true}>
             <span className="icon ion-paintbrush"></span>
             <span className="link">Proyectos</span>
           </Link>
         </li> */}
         <li>
-          <Link to="blog-card" smooth="true" spy={true}>
+          <Link
+            onClick={() => onFunction(3)}
+            to="blog-card"
+            smooth="true"
+            spy={true}
+          >
             <div className="svgContainer">
               <MemoTool />
             </div>
@@ -75,7 +90,12 @@ export const Header = () => (
           </Link>
         </li>
         <li>
-          <Link to="contacts-card" smooth="true" spy={true}>
+          <Link
+            onClick={() => onFunction(4)}
+            to="contacts-card"
+            smooth="true"
+            spy={true}
+          >
             <div className="svgContainer">
               <MemoMail />
             </div>

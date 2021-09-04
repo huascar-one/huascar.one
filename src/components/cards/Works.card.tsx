@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { Element } from "react-scroll";
-export const WorksCard = () => (
+
+export const WorksCard = ({ numberCard }: any) => (
   <Element className="card-inner" name="works-card">
     <div className="card-wrap">
       <div className="content works">

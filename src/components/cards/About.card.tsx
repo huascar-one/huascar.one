@@ -2,8 +2,11 @@ import logo from "public/logo.png";
 import Image from "next/image";
 import { Element } from "react-scroll";
 
-export const AboutCard = () => (
-  <Element className="card-inner animated active" name="about-card">
+export const AboutCard = ({ numberCard }: any) => (
+  <Element
+    className={`card-inner animated ${numberCard === 1 ? "active" : "hidden"}`}
+    name="about-card"
+  >
     <div className="card-wrap">
       <div className="content about">
         <div className="title">Acerca de mi</div>
