@@ -27,8 +27,8 @@ export const HomeCard = () => (
           backSpeed={20}
           strings={[
             "Desarrollador Web",
-            "Desarrollador de Apps Moviles",
             "Freelancer",
+            "Desarrollador de Apps Moviles",
           ]}
           smartBackspace
           shuffle={false}
