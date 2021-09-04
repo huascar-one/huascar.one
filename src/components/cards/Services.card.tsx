@@ -1,10 +1,11 @@
 import Image from "next/image";
+import { Element } from "react-scroll";
 import MemoCode from "src/svg/Code";
 import MemoDocker from "src/svg/Docker";
 import MemoMobile from "src/svg/Mobile";
 import MemoNetwork from "src/svg/Network";
 export const BlogCard = () => (
-  <div className="card-inner blog" id="blog-card">
+  <Element className="card-inner blog" name="blog-card">
     <div className="card-wrap">
       <div className="content services">
         <div className="title">Mis Servicios</div>
@@ -240,5 +241,5 @@ export const BlogCard = () => (
       </div>
      */}
     </div>
-  </div>
+  </Element>
 );

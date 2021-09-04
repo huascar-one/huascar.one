@@ -1,7 +1,9 @@
 import logo from "public/logo.png";
 import Image from "next/image";
+import { Element } from "react-scroll";
+
 export const AboutCard = () => (
-  <div className="card-inner animated active" id="about-card">
+  <Element className="card-inner animated active" name="about-card">
     <div className="card-wrap">
       <div className="content about">
         <div className="title">Acerca de mi</div>
@@ -258,5 +260,5 @@ export const AboutCard = () => (
         </div>
       </div> */}
     </div>
-  </div>
+  </Element>
 );

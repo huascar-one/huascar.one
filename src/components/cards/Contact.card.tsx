@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Element } from "react-scroll";
 
 export const ContactsCard = () => {
   const [name, setName] = useState("");
@@ -18,7 +19,7 @@ export const ContactsCard = () => {
   };
 
   return (
-    <div className="card-inner contacts" id="contacts-card">
+    <Element className="card-inner contacts" name="contacts-card">
       <div className="card-wrap">
         <div className="content contacts">
           <div className="title">Contactame!</div>
@@ -119,6 +120,6 @@ export const ContactsCard = () => {
      
       </div> */}{" "}
       </div>
-    </div>
+    </Element>
   );
 };

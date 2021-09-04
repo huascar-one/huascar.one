@@ -33,9 +33,13 @@ a {
   height: 15px;
 }
 
-.header .top-menu ul li.active a .svgContainer svg,
+.header .top-menu ul li a.active .svgContainer svg,
 .header .top-menu ul li:hover a .svgContainer svg {
   fill: #ff9800;
+}
+.header .top-menu ul li a.active .link,
+.header .top-menu ul li:hover a .link {
+  color: #ff9800;
 }
 
 .skill-title .icon svg {

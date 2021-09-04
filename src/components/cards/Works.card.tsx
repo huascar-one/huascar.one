@@ -1,6 +1,7 @@
 import Image from "next/image";
+import { Element } from "react-scroll";
 export const WorksCard = () => (
-  <div className="card-inner" id="works-card">
+  <Element className="card-inner" name="works-card">
     <div className="card-wrap">
       <div className="content works">
         <div className="title">Recent Works</div>
@@ -374,5 +375,5 @@ export const WorksCard = () => (
         </div>
       </div>
     </div>
-  </div>
+  </Element>
 );

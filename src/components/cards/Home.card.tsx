@@ -1,9 +1,10 @@
 import Image from "next/image";
 import logo from "public/logo.png";
+import { Element } from "react-scroll";
 import ReactTyped from "react-typed";
 
 export const HomeCard = () => (
-  <div className="card-started" id="home-card">
+  <Element className="card-started" name="home-card">
     <div className="profile">
       <div className="slide">
         <div style={{ zIndex: 0 }}>
@@ -68,5 +69,5 @@ export const HomeCard = () => (
         </a>
       </div>
     </div>
-  </div>
+  </Element>
 );

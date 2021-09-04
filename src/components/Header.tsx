@@ -5,6 +5,7 @@ import MemoMail from "src/svg/Mail";
 import MemoMan from "src/svg/Man";
 import MemoStar from "src/svg/Star";
 import MemoTool from "src/svg/Tool";
+import { Link } from "react-scroll";
 export const Header = () => (
   <header className="header">
     <div className="profile">
@@ -43,43 +44,43 @@ export const Header = () => (
 
     <div className="top-menu">
       <ul>
-        <li className="active">
-          <a href="#about-card">
+        <li>
+          <Link to="about-card" smooth="true" spy={true}>
             <div className="svgContainer">
               <MemoMan />
             </div>
             <span className="link">Yo</span>
-          </a>
+          </Link>
         </li>
         <li>
-          <a href="#resume-card">
+          <Link to="resume-card" smooth="true" spy={true}>
             <div className="svgContainer">
               <MemoStar />
             </div>
             <span className="link">Habilidades</span>
-          </a>
+          </Link>
         </li>
         {/* <li>
-          <a href="#works-card">
+          <Link to="works-card" smooth="true" spy={true}>
             <span className="icon ion-paintbrush"></span>
             <span className="link">Proyectos</span>
-          </a>
+          </Link>
         </li> */}
         <li>
-          <a href="#blog-card">
+          <Link to="blog-card" smooth="true" spy={true}>
             <div className="svgContainer">
               <MemoTool />
             </div>
             <span className="link">Servicios</span>
-          </a>
+          </Link>
         </li>
         <li>
-          <a href="#contacts-card">
+          <Link to="contacts-card" smooth="true" spy={true}>
             <div className="svgContainer">
               <MemoMail />
             </div>
             <span className="link">Contacto</span>
-          </a>
+          </Link>
         </li>
       </ul>
     </div>

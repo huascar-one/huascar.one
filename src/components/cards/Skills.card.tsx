@@ -5,9 +5,10 @@ import MemoFlag from "src/svg/Flag";
 import MemoList from "src/svg/List";
 import MemoPatron from "src/svg/Patron";
 import { CircularProgressbar } from "react-circular-progressbar";
+import { Element } from "react-scroll";
 
 export const ResumeCard = () => (
-  <div className="card-inner" id="resume-card">
+  <Element className="card-inner" name="resume-card">
     <div className="card-wrap">
       {/* <div className="content resume">
         <div className="title">Resume</div>
@@ -429,5 +430,5 @@ export const ResumeCard = () => (
       </div>
     */}
     </div>
-  </div>
+  </Element>
 );
