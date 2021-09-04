@@ -33,15 +33,15 @@ export default function Home() {
         <link rel="stylesheet" href="css/demos/demo-2-colors.css" />
         <link rel="stylesheet" href="css/new-skin/classic-skin.css" />
         <link rel="stylesheet" href="css/template-dark/dark.css" />
-
-        <Script src="js/jquery.min.js"></Script>
-        <Script src="js/jquery.validate.js"></Script>
-        <Script src="js/jquery.magnific-popup.js"></Script>
-        <Script src="js/jquery.slimscroll.js"></Script>
-        <Script src="js/imagesloaded.pkgd.js"></Script>
-        <Script src="js/isotope.pkgd.js"></Script>
-        <Script src="js/owl.carousel.js"></Script>
       </Head>
+
+      <Script src="js/jquery.min.js"></Script>
+      <Script src="js/jquery.validate.js"></Script>
+      <Script src="js/jquery.magnific-popup.js"></Script>
+      <Script src="js/jquery.slimscroll.js"></Script>
+      <Script src="js/imagesloaded.pkgd.js"></Script>
+      <Script src="js/isotope.pkgd.js"></Script>
+      <Script src="js/owl.carousel.js"></Script>
       <div className="page new-skin">
         <div className="background gradient">
           <ul className="bg-bubbles">
