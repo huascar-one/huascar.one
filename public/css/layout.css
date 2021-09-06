@@ -653,12 +653,6 @@
   z-index: 10;
 }
 
-.card-inner.hidden {
-  opacity: 0;
-  visibility: hidden;
-  z-index: 9;
-}
-
 .card-inner:before,
 .card-inner:after {
   content: "";
@@ -3399,6 +3393,13 @@
 
 p.no-comments {
   margin: 25px 0;
+}
+@media (min-width: 1199px) {
+  .card-inner.hidden {
+    opacity: 0;
+    visibility: hidden;
+    z-index: 9;
+  }
 }
 
 @media (max-width: 1199px) {

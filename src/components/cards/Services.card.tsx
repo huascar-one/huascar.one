@@ -6,7 +6,7 @@ import MemoMobile from "src/svg/Mobile";
 import MemoNetwork from "src/svg/Network";
 export const BlogCard = ({ numberCard }: any) => (
   <Element
-    className={`card-inner animated blog${
+    className={`card-inner animated blog ${
       numberCard === 3 ? "active" : "hidden"
     }`}
     name="blog-card"
