@@ -1,10 +1,10 @@
 import Image from "next/image";
 import logo from "public/logo.png";
-import { Element } from "react-scroll";
+import { Link } from "react-scroll";
 import ReactTyped from "react-typed";
 
-export const HomeCard = () => (
-  <Element className="card-started" name="home-card">
+export const HomeCard = ({ onFunction }: any) => (
+  <div className="card-started" id="home-card">
     <div className="profile">
       <div className="slide">
         <div style={{ zIndex: 0 }}>
@@ -61,13 +61,18 @@ export const HomeCard = () => (
       </div> */}
 
       <div className="lnks">
-        <a href="#" className="lnk">
+        {/* <a href="#" className="lnk">
           <span className="text">Descargar CV</span>
-        </a>
-        <a href="#" className="lnk discover">
+        </a> */}
+        <Link
+          onClick={() => onFunction(4)}
+          to="contacts-card"
+          smooth="true"
+          className="lnk discover"
+        >
           <span className="text">Contactame</span>
-        </a>
+        </Link>
       </div>
     </div>
-  </Element>
+  </div>
 );

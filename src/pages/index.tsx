@@ -62,7 +62,7 @@ export default function Home() {
           data-animation-out="fadeOutLeft"
         >
           <Header onFunction={ChangeActiveCard} />
-          <HomeCard />
+          <HomeCard onFunction={ChangeActiveCard} />
           <AboutCard numberCard={activeCard} />
           <ResumeCard numberCard={activeCard} />
           <BlogCard numberCard={activeCard} />
