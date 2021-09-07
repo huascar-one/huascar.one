@@ -13,7 +13,6 @@ export default function Home() {
   const ChangeActiveCard = (numberCard: number) => {
     setActiveCard(numberCard);
   };
-  console.log(activeCard);
   return (
     <>
       <NextSeo
