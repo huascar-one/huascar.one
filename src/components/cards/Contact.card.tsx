@@ -41,6 +41,7 @@ export const ContactsCard = ({ numberCard }: any) => {
               justifyContent: "center ",
             }}
             target="_blank"
+            rel="noreferrer"
             href="https://api.whatsapp.com/send?phone=59179134768&text=Hola%20Huascar!"
           >
             <button>Mandame un WhatsApp</button>
