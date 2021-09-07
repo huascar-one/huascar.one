@@ -7,7 +7,14 @@ export const HomeCard = ({ onFunction }: any) => (
   <div className="card-started" id="home-card">
     <div className="profile">
       <div className="slide">
-        <div style={{ zIndex: 0 }}>
+        <div
+          style={{
+            zIndex: 0,
+            position: "relative",
+            height: "100%",
+            width: "100%",
+          }}
+        >
           <Image
             src={require("public/images/bg.jpg")}
             layout="fill"
