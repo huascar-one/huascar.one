@@ -9,20 +9,20 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "11.1.2",
-    "next-seo": "^4.26.0",
+    "next": "12.0.7",
+    "next-seo": "^4.28.1",
     "react": "17.0.2",
     "react-circular-progressbar": "^2.0.4",
     "react-dom": "17.0.2",
     "react-scroll": "^1.8.4",
     "react-typed": "^1.2.0",
-    "twilio": "^3.67.1"
+    "twilio": "^3.71.3"
   },
   "devDependencies": {
-    "@types/react": "^17.0.19",
+    "@types/react": "^17.0.37",
     "@types/react-scroll": "^1.8.3",
-    "eslint": "7.32.0",
-    "eslint-config-next": "11.1.2",
-    "typescript": "^4.4.2"
+    "eslint": "8.4.0",
+    "eslint-config-next": "12.0.7",
+    "typescript": "^4.5.2"
   }
 }
